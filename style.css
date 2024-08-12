@@ -329,7 +329,7 @@ footer .navlinks2  a{
         display: none;
     }
 }
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 992px){
     label{
         display: hidden;
     }
