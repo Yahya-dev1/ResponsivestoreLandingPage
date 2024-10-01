@@ -251,11 +251,13 @@ footer{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .icons i{
-    font-size: 30px;
+    font-size: 40px;
     padding-top: 10px;
 }
 
@@ -301,7 +303,6 @@ footer .navlinks2  a{
         height: 150px;
         margin: 20px 0;
         position: relative;
-        background-color: rgba(0, 0, 0, 0.8);
     }
     .banner h3{
         position: absolute;
@@ -326,7 +327,7 @@ footer .navlinks2  a{
     }
     #banner2 h3{
         
-        display: none;
+        /* display: none; */
     }
 }
 @media only screen and (min-width: 992px){
